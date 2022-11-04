@@ -1,14 +1,4 @@
-const drumKeys = [
-  'KeyA',
-  'KeyS',
-  'KeyD',
-  'KeyF',
-  'KeyG',
-  'KeyH',
-  'KeyJ',
-  'KeyK',
-  'KeyL',
-];
+const drumKeys = ['KeyA', 'KeyS', 'KeyD', 'KeyF', 'KeyG', 'KeyH', 'KeyJ', 'KeyK', 'KeyL'];
 
 const addClass = (keyCode) => {
   document.getElementById(keyCode).classList.add('playing');
